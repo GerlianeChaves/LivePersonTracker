@@ -1,0 +1,12 @@
+# Ignorar arquivos grandes
+yolo_files/
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar vídeos grandes
+midia/
+
+# Ignorar ambiente virtual
+LivePersonTracker_venv/
