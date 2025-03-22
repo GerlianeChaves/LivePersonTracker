@@ -1,19 +1,25 @@
-# Live Person Tracker
+# <p align="center">Live Person Tracker</p>
 
-People detection and tracking project.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.6%2B-blue?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/OpenCV-4.x-green?style=for-the-badge&logo=opencv" alt="OpenCV">
+  <img src="https://img.shields.io/badge/YOLOv3-Detection-red?style=for-the-badge" alt="YOLOv3">
+</p>
 
 ## Features
 
-- Real-time detection via webcam.
-- Processing of pre-recorded videos.
-- Visual proximity identification (“Close” in red and “Safe” in green).
-- Real-time visualization interface in OpenCV.
+- Real-time detection via webcam.  
+- Processing of pre-recorded videos.  
+- Visual proximity identification ("Close" in red and "Safe" in green).  
+- Real-time visualization interface in OpenCV.  
 
-## Requirements
+---
+
+##  Requirements
 
 - Python 3.6+
-- Permission libraries (install via `pip`):  
-```bash
+- Install required dependencies via pip:
+  ```bash
   pip install opencv-python numpy
   ```
 ## YOLO Files
@@ -83,6 +89,11 @@ python PersonTracker.py
 
 Press `q` to exit the preview.
 
+## Results
+
+📌 Video Detection 
+
+<img src="img/Gravação-de-tela-de-2025-03-21-21-34-52.gif" width="550">
 
 ## Contributing
 
